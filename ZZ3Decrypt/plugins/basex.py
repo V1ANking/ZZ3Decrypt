@@ -2,8 +2,9 @@
 #coding: utf-8
 
 import base64
+
 from common.log import Log
-from common.iplugin import DecryptPlugin
+from core.iplugin import DecryptPlugin
 
 logger=Log.getLogger('zz3.log')
 

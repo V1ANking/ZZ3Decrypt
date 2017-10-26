@@ -2,9 +2,10 @@
 #coding: utf-8
 
 import json
-from pluginmanager import PluginManager
-from common.zz3exception import PluginException
+
 from common.log import Log
+from common.zz3exception import PluginException
+from core.pluginmanager import PluginManager
 
 logger=Log.getLogger('zz3.log')
 

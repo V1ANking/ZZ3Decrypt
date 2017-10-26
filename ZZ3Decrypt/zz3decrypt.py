@@ -2,9 +2,10 @@
 #coding: utf-8
 
 import os
-from common.pluginmanager import PluginManager
-from common.iplugin import __ALLMODEL__
+
 from common.log import Log
+from core.iplugin import __ALLMODEL__
+from core.pluginmanager import PluginManager
 
 logger=Log.getLogger('zz3.log')
 
